@@ -1,3 +1,6 @@
 x=c(4,6,7,1,5,12,9)
 mean(x)
 sd(x)
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+usethis::use_github()
